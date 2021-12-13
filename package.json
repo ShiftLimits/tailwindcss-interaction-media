@@ -1,0 +1,34 @@
+{
+  "name": "tailwindcss-interaction-media",
+  "version": "0.1.0",
+  "author": "Jeff Schofield <jeff@jeffschofield.com>",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist/**/*",
+    "readme.md"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "test": "jest"
+  },
+  "gitHooks": {
+    "commit-msg": "node scripts/verifyCommit.js"
+  },
+  "devDependencies": {
+    "@types/jest": "^27.0.3",
+    "@types/node": "^16.11.12",
+    "@types/tailwindcss": "^2.2.4",
+    "jest": "^27.4.4",
+    "jest-matcher-css": "^1.1.0",
+    "postcss": "^8.4.4",
+    "tailwindcss": "^3.0.1",
+    "ts-jest": "^27.1.1",
+    "ts-node": "^10.4.0",
+    "tsup": "^5.11.1",
+    "typescript": "^4.5.3",
+    "yorkie": "^2.0.0"
+  }
+}
