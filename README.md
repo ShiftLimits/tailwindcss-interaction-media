@@ -32,7 +32,7 @@ This plugin adds variants for the CSS interaction media features `hover`, `point
 
 These variants help address problems when creating adaptive designs using Tailwind CSS. A common issue when adapting for touchscreen devices is having the utilities applied by the `hover:` variant "stick" after being tapped.
 
-This can be trivially addressed by using the `any-can-hover:` variant in combinations with the `hover:` variant so that hover utilities are applied when the device has **any** pointer with hover capabilities. This way we can support modern hybrid-input devices such as smartphones with a bluetooth mouse.
+This can be trivially addressed by using the `any-can-hover:` variant in combination with the `hover:` variant so that hover utilities are applied when the device has **any** pointer with hover capabilities. This way we can support modern hybrid-input devices such as smartphones with a bluetooth mouse.
 
 ### Hover
 These variants detect the hover capabilities of the device's interaction media.
