@@ -2,7 +2,7 @@ import tailwindcss from 'tailwindcss'
 import postcss from 'postcss'
 import cssMatcher from 'jest-matcher-css'
 import { TailwindConfig } from 'tailwindcss/tailwind-config'
-import InteractionMedia from '../src'
+import InteractionMedia from '../dist/index'
 
 expect.extend({
 	toMatchCss: cssMatcher

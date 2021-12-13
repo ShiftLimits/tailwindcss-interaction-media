@@ -5,7 +5,7 @@
   "license": "MIT",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
-  "types": "dist/index.d.ts",
+  "types": "tailwindcss-interaction-media.d.ts",
   "files": [
     "dist/**/*",
     "readme.md"

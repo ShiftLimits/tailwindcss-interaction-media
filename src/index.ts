@@ -1,6 +1,6 @@
 import plugin from 'tailwindcss/plugin'
 
-export default plugin(() => {}, {
+module.exports = plugin(() => {}, {
 	theme: {
 		extend: {
 			screens: {
